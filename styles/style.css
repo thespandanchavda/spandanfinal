@@ -1,0 +1,148 @@
+@import url(./reset.css);
+
+#main-content {
+    display: flex;
+}
+
+/* NAVIGATION */
+#main-nav ul li {
+    display: inline-block;
+    color: white;
+}
+
+#main-nav ul {
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#main-nav ul li a {
+    color: white;
+    padding-right: 130px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*Header*/
+#main-header {
+    background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    height: 300px;
+    width: 100%;
+    opacity: 90%;
+}
+
+#main-header h1 {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#main-header h2 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* MAIN CONTENT */
+/*Main*/
+#sc {
+    padding-right: 5px;
+    float: left;
+    margin: 1.2em;
+    height: 200px;
+    width: 200px;
+}
+
+main>cite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 1;
+}
+
+/*Aside*/
+#aside-option-3 {
+    padding-top: 7px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+#sp {
+    margin-bottom: 17px;
+}
+
+#aside-option-3 h2 {
+    background-color: rgb(230, 207, 148);
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    text-align: center;
+    padding-top: 27px;
+    font-size: 1.2rem;
+
+}
+
+#aside-option-3 h2 {
+    color: brown;
+    font-size: larger;
+}
+
+#sp {
+    margin-left: 9px;
+    margin-right: 8px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+#SC {
+    background-color: rgb(230, 207, 148);
+    margin-left: 9px;
+    margin-right: 8px;
+    text-align: center;
+    padding-top: 15px;
+    color: brown;
+    font-size: 1.2rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(88, 87, 87);
+    height: 350px;
+    margin-top: 190px;
+
+}
+
+#social-nav ul li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#social-nav ul li a img {
+    height: 90px;
+    font-weight: 90px;
+    padding-right: 60px;
+}
+
+#spd {
+    height: 120px;
+    font-weight: 120px;
+    padding-right: 60px;
+    padding-left: 370px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
